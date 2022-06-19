@@ -15,5 +15,8 @@ https://aur.archlinux.org/packages/pamac-aur <br />
 https://aur.archlinux.org/packages/sublime-text-4 <br />
 https://aur.archlinux.org/packages/tor-browser <br />
 
+Edit rA9/pacman.conf to point to the directories of the custom local repositories. <br />
+Edit rA9/packages.x86_64 to add more packages.
+
 Build command: <br />
 $ sudo mkarchiso -v -w rA9wrk/ rA9/
