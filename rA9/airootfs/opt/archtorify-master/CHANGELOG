@@ -1,0 +1,95 @@
+/** archtorify CHANGELOG **/
+
+IMPORTANT:
+
+Only changes that are important to users will be written to this file.
+Please see git `/commits/master` for technical details of the program changes.
+
+```
+Format:
+
+/** version number / date **
+
+[committer] username
+
+arguments
+```
+
+/** 1.23.0 / 2021-01-24 **/
+
+[committer] brainfucksec
+
+Improve function for check program settings
+Improve output messages
+
+
+/** 1.24.0 / 2021-04-14 **/
+
+[committer] brainfucksec
+
+README file: change program's logo (add white background for Github dark themes)
+
+
+/** 1.25.0 / 2021-04-20 **/
+
+[committer] brainfucksec
+
+Update README, Wiki
+Little changes on output messages
+
+
+/** 1.26.0 / 2021-10-05 **/
+
+[committer] brainfucksec
+
+Add option `--banner`
+
+
+/** 1.26.1 / 2021-11-06 **/
+
+[committer] brainfucksec
+
+Fix update:
+
+Fix error exception function
+
+
+/** 1.27.0 / 2022-02-21 **/
+
+[committer] brainfucksec
+
+Changes on data/torrc (/etc/tor/torrc)
+
+
+/** 1.27.1 / 2022-03-10 **/
+
+[committer] brainfucksec
+
+Fix curl request in check_status() function (archtorify -s, --status)
+
+
+/** 1.27.2 / 2022-05-05 **/
+
+[committer] brainfucksec
+
+Fix function check_ip()
+
+
+/** 1.29.0 / 2022-05-20 **/
+
+[committer] brainfucksec
+
+Change backup directory (old: /usr/share/archtorify/backups, new: /var/lib/archtorify/backups)
+Change Makefile
+
+
+/** 1.30.0 / 2022-05-30 **/
+
+Various fixes and changes (see: last commit)
+
+
+/** 1.30.1 / 2022-05-31 **/
+
+[committer] brainfucksec
+
+Fix function for check Tor settings, some changes (see: commit, commit message)
